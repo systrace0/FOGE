@@ -10,7 +10,7 @@ namespace foge
         Vec3(float a, float b, float c) : x(a), y(b), z(c)
         {
         }
-TEST
+        
         float &operator[](int i)
         {
             return ((&x)[i]);
